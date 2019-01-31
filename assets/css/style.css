@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@font-face{
+	font-family:calibri;
+	src:url(../fonts/Calibri.ttf)
+	}
+body {
+	font-family:Patua One;
+	}
+a{
+	text-decoration:none;
+}
+hr{
+	color:#e4e4e4;
+	}
+header{
+	background-color:#191919;
+	height:50px;
+
+	}
+.container{
+	width:940px;
+	margin: 0 auto;
+	}
+nav {
+	float:left;
+	
+	}
+nav ul li{
+	display:inline-block;
+	line-height:50px;
+	margin-left:12px;
+	margin-right:12px;
+	}
+nav ul li a{
+	font-size:16px;
+	color:#d9d9d9;
+	}
+nav ul li a:hover{
+	color:#33cccd;
+	transition:all ease-in 0.4s;
+	}
+.social-icon{
+	float:right;
+	}
+.social-icon ul li{
+	display:inline-block;
+	
+	}
+.social-icon ul li a {
+	background:url(../img/sprite_social_1.png);
+	width:38px;
+	height:50px;
+	display: block;
+	text-indent:-9999px;
+	transition:all 0.4s ease;
+}
+.social-icon ul li a.facebook{
+    background-position: -39px 0px;
+	
+	}
+.social-icon ul li a.viemo{
+    background-position: -78px 0px;
+	}
+	.social-icon ul li a.pintrest{
+    background-position: -115px 0px;
+	}
+.social-icon ul li a.instagram{
+    background-position: -153px 0px;
+	}
+.social-icon ul li a.twitter:hover{
+    background-position: 0px -44px;
+	background-color:#1da1f2;
+	}
+.social-icon ul li a.facebook:hover{
+    background-position: -39px -44px;
+	background-color:#3b5998;
+	}
+.social-icon ul li a.viemo:hover{
+    background-position: -78px -44px;
+	background-color:#1ab7ea;
+	}
+.social-icon ul li a.pintrest:hover{
+    background-position: -115px -44px;
+	background-color:#bd081c;
+	}
+.social-icon ul li a.instagram:hover{
+    background-position: -153px -44px;
+	background-color:#5851db;
+	} 
+.search-box{
+	float: right;
+	border-right: 1px solid #303030;
+	border-left: 1px solid #303030;
+	background: url(../img/icon_search_1.png) no-repeat 8px 17px;
+	padding: 14px 26px;
+	margin-left: 15px;
+	}
+.search-box input {
+	width:25px;
+	color:#FFF;
+	background-color:transparent;
+	border:none;
+	}
+.logo {
+	text-align:center;
+	margin:50px;
+	}
+.nav-two{
+	text-align:center;
+	background:url(../img/bg_secondary_menu_1.gif);
+	line-height:58px;
+	margin-bottom:30px;
+	}
+.nav-two ul li{
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	}
+.nav-two ul li a{
+	font-size:20px;
+	color:#191919;
+	transition:all ease-in 0.4s; 
+	}
+.nav-two ul li a:hover{
+	color:#33cccd;
+	}
+.slider{
+	margin-bottom:30px;
+	}
+.top-had {
+	text-align:center;
+	line-height:25px;
+	margin-bottom:35px;
+	}
+.top-had h1{
+	font-size:22px;
+	}
+.top-had p{
+	color:#a8a8a8;
+	}
+.col-1{
+	float:left;
+	width:296px;
+	margin-right:25px;
+	}
+.col-1:last-child{
+	margin-right:0px;
+	}
+.block-title h3{
+	font-size:14px;
+	color:#808080;
+	font-family:calibri;
+	line-height:35px;
+	}
+.block-info p{
+	font-size:17px;
+	font-family:patua one;
+	line-height:25px;
+	}
+.block-info p span{
+	color:#33cccd;
+	}
+.block-2{
+	margin:30px 0px;
+	}
+.block-2-left{
+	float:left;
+	margin-right:12px;
+	}
+.block-2-rihgt{
+	float:rihgt;
+	}
+.block-2-title h3{
+	font-size:14px;
+	color:#808080;
+	font-family:calibri;
+	padding-bottom:7px;
+	}
+.block-2-info p{
+	font-size:15px;
+	font-family:patua one;
+	line-height:18px;
+	}
+.block-3 {
+	border:2px solid #f0f0f0;
+	padding:8px;
+	line-height:20px;
+	margin-bottom:35px;
+	}
+.block-3 h3{
+	font-size:14px;
+	color:#808080;
+	font-family:calibri;
+	}
+.mr-top{
+	margin-top:40px;
+	}
+
+a.load-more{
+	font-size:18px;
+	color:#4e4e4e;
+	text-align:center;
+	margin:45px auto 100px;
+	display:block;
+	width:293px;
+	height:37px;
+	line-height:37px;
+	border:2px solid #e8e8e8;
+	position:relative;
+	}
+a.load-more span:before{
+	content:"";
+	background-image:url(../img/icon_load_1.png);
+	background-repeat:no-repeat;
+	width:13px;
+	height:10px;
+	position:absolute;
+	left: 51px;
+    top: 13px;
+}
+/*--------------------------------------------------------------------------foooter-start------------------------------------------------------------------------*/
+
+footer{
+	background-color:#161e26;
+	}
+.foot-col-1 , .foot-col-2{
+	float:left;
+	width:296px; 
+	margin-right:25px;
+	padding:30px 0px;
+	text-align:center;
+	}
+.foot-col-3{
+	float:right;
+	width:296px;
+	padding:30px 0px;
+	text-align:center;
+	}
+.foot-had{
+	font-size:20px;
+	color:#fff;
+	margin-bottom:16px;
+	}
+.categories{
+	line-height:35px;
+	}
+.categories ul li a{
+	font-size:14px;
+	color:#dbdbdb;
+	transition:all ease-in 0.4s;
+	font-family:calibri;
+	}
+.categories ul li a:hover{
+	color:#33cccd;
+	}
+.tags{
+	text-align:center;
+	margin-bottom:30px;
+}
+.tags ul li{
+	display:inline-block;
+	line-height:37px;
+	}
+.tags ul li a{
+	font-size:13px;
+	font-family:calibri;
+	color:#ebebeb;
+	background-color:#262d36;
+	padding:10px;
+	border-radius:4px;
+	}
+.tags-para p {
+	font-family:calibri;
+	font-size: 15px;
+	color:#c8cdd2;
+	line-height:27px;
+	}
+.tags-para p a{
+	color:#fff;
+	}
+.tags-para p span{
+	color:#7b8188;
+	}
+.instagram ul li{
+	display:inline-block;
+	}
+.instagram ul li a{
+	opacity:0.5;
+	transition:all ease-in 0.4s;
+	}
+.instagram ul li a:hover{
+	opacity:1;
+	}
+.footer-2{
+	background-color:#191919;
+	text-align:center
+	}
+.footer-2 ul li{
+	display:inline-block;
+	line-height:50px;
+	margin-left:12px;
+	margin-right:12px;
+	}
+.footer-2 ul li a{
+	font-size:16px;
+	color:#d9d9d9;
+	}
+.footer-2 ul li a:hover{
+	color:#33cccd;
+	transition:all ease-in 0.4s;
+	}
+.footer-3 {
+	font-family:calibri;
+	font-size:17px;
+	color:#b1b1b1;
+	text-align:center;
+	line-height:55px;
+	}
+/*--------------------------------------------------------------life-start----------------------------------------------------------------------------------------*/
+.back-img{
+	background:url(../img/life-br.jpg);
+	height:3px;
+	margin-top:25px;
+	margin-bottom:28px;
+	}
+.main-had h2 {
+	font-size:18px;
+	color:#191919;
+	border-top:2px solid #161e26;
+	padding-top:10px;
+	margin-bottom:9px;
+	}
+.no-margin {
+	margin-top:0px;
+	}
+.social-left{
+	float:left;
+	margin-bottom:8px;
+	}
+.social-left span{
+	font-size:14px;
+	}	 
+.social-left i{
+	color:#fff;
+	background-color:#4871af;
+	padding:10px 12px;
+	margin-right:5px;
+	}
+.twitter-clr{
+	background-color:#54aee2 !important;
+ 	}
+.rss-clr{
+	background-color:#e29126 !important;
+	}
+.social-right{
+	float:right;
+	margin-top:11px;
+	
+	}
+.social-right a{
+	font-size:12px;
+	font-family:calibri;
+	color:#fff;
+	background-color:#d3d9de;
+	padding:5px 15px;
+	border-radius:3px;
+	}
+.enterprise{
+	margin-top:25px;
+	margin-bottom:25px;
+	}
+.new-review{
+	padding-bottom:15px;
+	border-bottom:1px solid #e4e4e4;
+	margin-bottom:16px;
+	}
+.latest-left{
+	float:left;
+	}
+.latest-left p{
+	font-family:patua one;
+	color:#424242;
+	padding-bottom:5px;
+	width:255px;
+	}
+.latest-right{
+	float:right;
+	}
+.latest-right span{
+	font-size:15px;
+	color:#fff;
+	background-color:#33cccd;
+	padding:3px 4px;
+	border-radius:4px;
+	}
+.comment .comment-right{
+	float:right;
+	width:250px;
+	}
+.comment .comment-right h2{
+	font-family:patua one;
+	font-size:14px;
+	color:#424242;
+	margin-bottom:5px;
+	}
+.comment .comment-right h2 span{
+	color:#8a8a8a;
+	}
+.comment .comment-right p{
+	font-family:calibri;
+	color:#424242;
+	}
+.comment .comment-left{
+	float:left;
+	width:25px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	border:2px solid #efefef;
+	}
+.margin-top{
+	margin-top:17px;
+	}
+aside .block-2{
+	margin:15px 0px;
+	}
+aside .back-img{
+	margin-bottom:20px;
+	}
+.short-width{
+	width:618px;
+	}
+.pagination {
+	width:618px;
+	margin-top:30px;
+	margin-bottom:120px;
+	}
+.pagination a {
+	padding:8px 13px;
+	border:2px solid #efefef;
+	color:#000;
+	transition:all ease-in 0.4s;
+	}
+.pagination a:hover{
+	color:#fff;
+	background-color:#33cccd;
+	border-color:#33cccd;
+	}
+.pagination a:first-child{
+	background-color:#33cccd;
+	border-color:#33cccd;
+	}
+.center{
+	float:right;
+	}
+/*-----------------------------------------------------------------------design-start-----------------------------------------------------------------------------*/
+.photography-left{
+	float:left;
+	width:618px;
+	}
+.photography-right{
+	float:right;
+	width:296px;
+	}
+a.load-more.new-width{
+	width:618px;
+	margin:0px;
+	margin-top:35px;
+	margin-bottom:100px;
+	}
+a.load-more.new-width span:before{
+	left:240px;
+	}
+/*-----------------------------------------------------------------------design-start-----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------reviews-start-----------------------------------------------------------------------------*/
+
+.block-stars img{
+	margin:12px 0px;
+	}
+
+.block-stars p{
+	font-family:calibri;
+	font-size:17px;
+	}
+
+/*----------------------------------------------------------------------reviews-End-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------Fashion-start----------------------------------------------------------------------------*/
+.fashion{
+	border-bottom:1px solid #efefef;
+	padding-bottom: 32px;
+    margin-bottom: 32px;
+	}
+.fashion-img{
+	float:left;
+	width:250px;
+	margin-right:18px;
+	}
+
+.fashion-info{
+	float:left;
+	width:350px;
+	font-family:calibri;
+	}
+.fashion-info span{
+	
+	color:#808080;
+	}
+.fashion-info h4{
+	font-family:patua one;
+	padding:15px 0px;
+	}
+.br-none{
+	border:none;
+	margin-bottom:0px;
+	padding-bottom:10px;
+	}
+/*-----------------------------------------------------------------------Fashion-end-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------contact-us-----------------------------------------------------------------------------*/
+.contact-left {
+	float:left;
+	width:618px;
+	}
+.contact-right{
+	float:right;
+	width:296px;
+	}
+.last-para p{
+	font-family:calibri;
+	font-size:15px;
+	line-height:20px;
+	margin-bottom:25px;
+	}
+
+	}
+p.sizing {
+	font-family:patua one;
+	font-size:18px;
+	
+	}
+form p span{
+	color:#F00;
+	}
+form input{
+	width:320px;
+	height:40px;
+	margin-top:11px;
+	margin-bottom:21px;
+	border:1px solid #e5e5e5;
+	}
+textarea{
+	width:618px;
+	height:184px;
+	margin-top:13px;
+	margin-bottom:20px;
+	border-color:#e5e5e5;
+	}
+button{
+	font-family:patua one;
+	font-size:18px;
+	text-transform:uppercase;
+	background-color:#161e26;
+	border-color:#161e26;
+	border-radius:3px;
+	color:#fff;
+	padding: 6px 16px;
+	margin-bottom:15px;
+	}
+.google-map h1{
+	font-family:patua one;
+	font-size:20px;
+	margin-top:47px;
+	margin-bottom:30px;
+	}
+
+
+
+/*-----------------------------------------------------------------------contact-us-----------------------------------------------------------------------------*/
